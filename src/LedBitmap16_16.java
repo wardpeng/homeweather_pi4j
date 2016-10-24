@@ -124,7 +124,7 @@ public class LedBitmap16_16
 		 * 
 		 * 5.配合屏幕旋转，和滑动显示scroll_left，将src分割到上下两组屏幕的两个buffer中
 		 * 
-		 * 6.以一定时间间隔（速度可调），刷新显示
+		 * 6.以一定时间间隔（速度），刷新显示
 		 */
 		led.orientation(90);
 		led.showMessag_16_16(msg);
