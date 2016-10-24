@@ -1,4 +1,5 @@
 package font;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -6,7 +7,7 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
 /**
- * 获取指定汉字的字模数据16*16点阵，一个汉字对应31个字节
+ * 获取指定汉字的字模数据16*16点阵，一个汉字对应32个字节
  * 
  * @author pengxiangqi
  *
