@@ -15,7 +15,7 @@ public class LedBitmap16_16
 {
 
 	private static final boolean debug = false;
-	private static final int speed = 30;// 演示时间
+	private static final int SPEED = 30;// 延时时间设置，ms
 
 	public static class Constants
 	{
@@ -55,7 +55,7 @@ public class LedBitmap16_16
 		// 打开设备
 		led.open();
 
-		// 旋转270度，缺省两个屏幕是上下排列，我需要的是左右排
+		// 旋转90度
 		led.orientation(90);
 		led.showMessag_16_16(
 				"大胖 派我来巡山,121^*(^&$*^%,今年第22号台风“海马”的 中心已于21于日中午12点40分前后在广东省汕尾市海丰县鲘门镇登陆，登陆时中心附近最大风力有14级（42米/秒，强台风级），中心最低气压为960百帕。“海马”直扑广东，带来严重风雨影响。昨天上午，广东中东部、福建东南部的部分地区瞬时最大风力有8～10级，广东东部沿海地区和岛屿局地有11～14级，广东汕尾浮标站达16级（52.9米/秒）");
@@ -161,7 +161,7 @@ public class LedBitmap16_16
 		{
 			try
 			{
-				Thread.sleep(speed);
+				Thread.sleep(SPEED);
 			} catch (Exception ex)
 			{
 				ex.printStackTrace();
